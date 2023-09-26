@@ -23,13 +23,13 @@ const Category = () => {
         </video>
       </Wrap>    
       <Wrap>
-        <img src="/images/viewers-starwars.png" alt="starwars" />
+        <img src="/images/viewers-starwars.png" alt="star=wars" />
         <video autoPlay muted loop>
           <source src="/videos/star-wars.mp4" type="video/mp4" />
         </video>
       </Wrap>    
       <Wrap>
-        <img src="/images/viewers-national.png" alt="nationalgeographic" />
+        <img src="/images/viewers-national.png" alt="national-geographic" />
         <video autoPlay muted loop>
           <source src="/videos/national-geographic.mp4" type="video/mp4" />
         </video>
