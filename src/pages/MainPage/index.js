@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from '../../components/Nav'
 import Banner from '../../components/Banner'
 import Category from '../../components/Category'
 import Row from '../../components/Row'
@@ -9,7 +8,6 @@ import styled from 'styled-components'
 const index = () => {
   return (
     <Container>
-      <Nav />
       <Banner />
       <Category/>
       <Row title="Trending Now" id="TN" fetchURL={requests.fetchTrending} />
